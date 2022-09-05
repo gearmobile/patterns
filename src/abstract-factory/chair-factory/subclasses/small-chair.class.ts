@@ -1,5 +1,5 @@
 import { Chair } from './chair.class';
-import { IDimension } from './dimension.interface';
+import { IDimension } from '../interfaces/dimension.interface';
 
 export class SmallChair extends Chair {
   constructor(

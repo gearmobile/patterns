@@ -1,9 +1,9 @@
-import { ITable } from './table.interface';
-import { ETables } from './tables.enum';
+import { ITable } from './interfaces/table.interface';
+import { ETables } from './enums/tables.enum';
 
-import { SmallTable } from './small-table.class';
-import { MediumTable } from './medium-table.class';
-import { LargeTable } from './large-table.class';
+import { SmallTable } from './subclasses/small-table.class';
+import { MediumTable } from './subclasses/medium-table.class';
+import { LargeTable } from './subclasses/large-table.class';
 
 export class TableFactory {
   static createTable(type: ETables): ITable {

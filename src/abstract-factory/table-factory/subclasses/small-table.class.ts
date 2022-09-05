@@ -1,12 +1,12 @@
-import { IDimension } from './dimension.interface';
+import { IDimension } from '../interfaces/dimension.interface';
 import { Table } from './table.class';
 
-export class LargeTable extends Table {
+export class SmallTable extends Table {
   constructor(
-    public width: number = 60,
-    public height: number = 60,
-    public depth: number = 60,
-    public name: string = 'Large Table',
+    public width: number = 20,
+    public height: number = 20,
+    public depth: number = 20,
+    public name: string = 'Small Table',
   ) {
     super();
   }

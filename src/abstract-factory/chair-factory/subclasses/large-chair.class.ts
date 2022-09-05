@@ -1,11 +1,11 @@
+import { IDimension } from '../interfaces/dimension.interface';
 import { Chair } from './chair.class';
-import { IDimension } from './dimension.interface';
 
-export class MediumChair extends Chair {
+export class LargeChair extends Chair {
   constructor(
-    public width: number = 40,
-    public height: number = 40,
-    public name: string = 'Medium Chair',
+    public width: number = 60,
+    public height: number = 60,
+    public name: string = 'Large Chair',
   ) {
     super();
   }

@@ -1,5 +1,5 @@
-import { ITable } from './table.interface';
-import { IDimension } from './dimension.interface';
+import { ITable } from '../interfaces/table.interface';
+import { IDimension } from '../interfaces/dimension.interface';
 
 export class Table implements ITable {
   constructor(

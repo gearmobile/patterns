@@ -1,5 +1,5 @@
-import { IChair } from './chair.interface';
-import { IDimension } from './dimension.interface';
+import { IChair } from '../interfaces/chair.interface';
+import { IDimension } from '../interfaces/dimension.interface';
 
 export class Chair implements IChair {
   constructor(

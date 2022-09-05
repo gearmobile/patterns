@@ -1,6 +1,6 @@
 import { FurnitureFactory } from './furniture-factory.class';
-import { EChairs } from './chair-factory/chairs.enum';
-import { ETables } from './table-factory/tables.enum';
+import { EChairs } from './chair-factory/enums/chairs.enum';
+import { ETables } from './table-factory/enums/tables.enum';
 
 const smallChair = FurnitureFactory.createFurniture(EChairs.SmallChair);
 console.log(smallChair?.getDimension());

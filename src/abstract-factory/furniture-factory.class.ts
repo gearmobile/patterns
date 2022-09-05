@@ -1,7 +1,7 @@
-import { ETables } from './table-factory/tables.enum';
-import { EChairs } from './chair-factory/chairs.enum';
-import { ITable } from './table-factory/table.interface';
-import { IChair } from './chair-factory/chair.interface';
+import { ETables } from './table-factory/enums/tables.enum';
+import { EChairs } from './chair-factory/enums/chairs.enum';
+import { ITable } from './table-factory/interfaces/table.interface';
+import { IChair } from './chair-factory/interfaces/chair.interface';
 import { ChairFactory } from './chair-factory/chair-factory.class';
 import { TableFactory } from './table-factory/table-factory.class';
 

@@ -1,8 +1,8 @@
-import { IChair } from './chair.interface';
-import { EChairs } from './chairs.enum';
-import { SmallChair } from './small-chair.class';
-import { MediumChair } from './medium-char.class';
-import { LargeChair } from './large-chair.class';
+import { IChair } from './interfaces/chair.interface';
+import { EChairs } from './enums/chairs.enum';
+import { SmallChair } from './subclasses/small-chair.class';
+import { MediumChair } from './subclasses/medium-char.class';
+import { LargeChair } from './subclasses/large-chair.class';
 
 export class ChairFactory {
   static createChair(type: EChairs): IChair {
