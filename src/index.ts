@@ -1,1 +1,1 @@
-import 'src/mixins/index.js';
+import './abstract-factory-with-interfaces/index';
